@@ -1,0 +1,41 @@
+{
+  "name": "openglass",
+  "version": "1.0.0",
+  "description": "OpenGlass - 智能眼镜应用",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "browser-server": "node browser-control-server.js"
+  },
+  "proxy": "http://localhost:3000",
+  "dependencies": {
+    "@config-plugins/react-native-ble-plx": "^7.0.0",
+    "@expo/metro-runtime": "~3.2.1",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@types/crypto-js": "^4.2.1",
+    "axios": "^1.10.0",
+    "crypto-js": "^4.2.0",
+    "expo": "~50.0.0",
+    "expo-av": "~13.10.6",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.73.2",
+    "react-native-ble-plx": "^3.5.0",
+    "react-native-typography": "^1.4.1",
+    "react-native-web": "~0.19.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "@types/web-bluetooth": "^0.0.21",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "playwright": "^1.53.0",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
