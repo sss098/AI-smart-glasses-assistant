@@ -139,7 +139,3 @@ We welcome contributions of all forms! If you have any ideas, suggestions, or fi
 ## 📄 License
 
 This project is open-sourced under the [MIT License](LICENSE). 
-=======
-# AI-smart-glasses-assistant
-Design of AI smart glasses assistant platform 
->>>>>>> 715b907d90934df0933bee1d565de704ff314636
