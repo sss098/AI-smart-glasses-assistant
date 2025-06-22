@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # AI Smart Glasses Assistant - Open Source Smart Glasses Project
 
 AI Smart Glasses Assistant is an open-source smart glasses project, optimized and innovated based on the [OpenGlass](https://github.com/BasedHardware/OpenGlass) project. It aims to provide you with a powerful and highly customizable personal AI assistant. By combining the power of your smartphone with the convenience of glasses, this project can observe the world, talk to you, and help you with various tasks.
@@ -67,8 +69,6 @@ cd ai-dialogue-smart-glasses
 
 ```bash
 yarn install
-# or
-npm install
 ```
 
 ### 4. Configure API Keys
@@ -126,7 +126,11 @@ This will start the Expo Metro server. You can use the Expo Go app on your phone
 
 - **Hardware**: The project uses [Seeed Studio XIAO ESP32S3](https://www.seeedstudio.com/Seeed-XIAO-ESP32S3-p-5631.html) and [EEMB LP502030 3.7v 250mAH battery](https://www.amazon.com/EEMB-Battery-Rechargeable-Lithium-Connector/dp/B08VRZTHDL).
 - **Case Model**: The file is `Glass shell model.stl` in the `firmware` directory.
-- **Firmware**: The `firmware` directory contains the Arduino firmware used. Open the `.ino` file in the Arduino IDE, add the ESP32S3 board to your Arduino IDE, then go to the library manager on the left menu, search for and install libraries like `ArduinoBLE` and `Adafruit Pycamera Library`. After that, go to the "Tools" dropdown in the Arduino IDE, ensure "PSRAM:" is set to "OPI PSRAM", and then click the `Upload` button.
+- **Firmware**: The `firmware` directory contains the Arduino firmware used. Open the `.ino` file in the Arduino IDE, Click on the "File" bar at the top of the compiler to open "Preferences". Then, in the address of the other development board manager, enter the following link:
+- `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+- Install the esp32 to your Arduino IDE with edition `2.0.17`, then go to the library manager on the left menu, search for and install libraries like `ArduinoBLE` and `Adafruit Pycamera Library`. 
+- Then select your motherboard and port: At the top of the Arduino IDE, select the development board and port. In the pop-up window, search for `xiao` and select `XIAO_ESP32S3`
+- After that, go to the "Tools" dropdown in the Arduino IDE, ensure "PSRAM:" is set to "OPI PSRAM", and then click the `Upload` button.
 
 ## 🤝 Contributing
 
@@ -135,3 +139,7 @@ We welcome contributions of all forms! If you have any ideas, suggestions, or fi
 ## 📄 License
 
 This project is open-sourced under the [MIT License](LICENSE). 
+=======
+# AI-smart-glasses-assistant
+Design of AI smart glasses assistant platform 
+>>>>>>> 715b907d90934df0933bee1d565de704ff314636
