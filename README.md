@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # AI Smart Glasses Assistant - Open Source Smart Glasses Project
 
 AI Smart Glasses Assistant is an open-source smart glasses project, optimized and innovated based on the [OpenGlass](https://github.com/BasedHardware/OpenGlass) project. It aims to provide you with a powerful and highly customizable personal AI assistant. By combining the power of your smartphone with the convenience of glasses, this project can observe the world, talk to you, and help you with various tasks.
@@ -7,6 +5,13 @@ AI Smart Glasses Assistant is an open-source smart glasses project, optimized an
 ## ✨ Key Features
 
 - **👓 Real-time Visual Q&A**: Takes a picture of what you see based on your command, describes what you see, and answers follow-up questions about the image.
+  
+  Example prompts:
+  - "What is in front of me?"
+  - "What is this?"
+  - "Where is this?"
+  - "Help me take a look."
+  - "Recognize this for me."
 - **🤖️ Multi-Model AI Support**: The system integrates multiple powerful Large Language Models (LLMs) and can intelligently switch between them based on the task:
     - **Ollama**: Drives core tool usage and general conversation.
     - **Zhipu AI (GLM-4V)**: Handles complex visual Q&A tasks.
