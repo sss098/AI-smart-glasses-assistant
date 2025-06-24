@@ -203,10 +203,9 @@ export class Agent {
         // 移除<think>标签并设置最终答案
         const finalAnswer = rawAnswer.replace(/<think>[\s\S]*<\/think>/, '').trim();
         this.#state.answer = finalAnswer;
-        // 只在非图片响应时朗读
-        if (!this.#state.isImageResponse) {
-          await startAudio(finalAnswer);
-        }
+        
+        // 任何时候都播报语音
+        await startAudio(finalAnswer);
 
       } catch (error) {
         console.error("Error in answer:", error);

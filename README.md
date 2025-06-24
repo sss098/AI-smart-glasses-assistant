@@ -22,6 +22,12 @@ AI Smart Glasses Assistant is an open-source smart glasses project, optimized an
 - **🔌 Bluetooth Connectivity**: Seamlessly connects with the companion smart glasses hardware (based on ESP32-S3) via Bluetooth Low Energy (BLE).
 - **🔧 Highly Extensible**: The project uses a tool-based modular architecture, allowing you to easily add new features and integrations.
 
+## 🎥 Demo Video
+
+Watch our demo video to see the AI Smart Glasses Assistant in action:
+
+[![Demo Video](https://img.shields.io/badge/Bilibili-Demo%20Video-red?style=for-the-badge&logo=bilibili)](https://www.bilibili.com/video/BV1AgKezKERy)
+
 ## 🚀 Key Feature Improvements
 
 1.  **Multi-modal AI Agent**: The agent can process both text and images simultaneously, enabling true visual Q&A capabilities.

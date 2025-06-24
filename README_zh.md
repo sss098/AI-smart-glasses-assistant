@@ -22,6 +22,12 @@ AI smart glasses assistant   是一个开源的智能眼镜项目，基于[OpenG
 - **🔌 蓝牙连接**: 通过低功耗蓝牙（BLE）与配套的智能眼镜硬件（基于 ESP32-S3）无缝连接。
 - **🔧 高度可扩展**: 项目采用基于工具的模块化架构，您可以轻松地为其添加新的功能和集成。
 
+## 🎥 演示视频
+
+观看我们的演示视频，了解AI智能眼镜助手的工作效果：
+
+[![演示视频](https://img.shields.io/badge/Bilibili-演示视频-red?style=for-the-badge&logo=bilibili)](https://www.bilibili.com/video/BV1AgKezKERy)
+
 ## 🚀 主要功能改进点
 
 1.  **多模态AI代理**: 代理能同时处理文本和图像，实现了真正的视觉问答能力。
