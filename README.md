@@ -72,8 +72,8 @@ Watch our demo video to see the AI Smart Glasses Assistant in action:
 ### 2. Clone the Project
 
 ```bash
-git clone https://github.com/your-username/ai-dialogue-smart-glasses.git
-cd ai-dialogue-smart-glasses
+git clone https://github.com/sss098/AI-smart-glasses-assistant.git
+cd AI-smart-glasses-assistant
 ```
 
 ### 3. Install Dependencies
@@ -137,7 +137,7 @@ This will start the Expo Metro server. You can use the Expo Go app on your phone
 
 - **Hardware**: The project uses [Seeed Studio XIAO ESP32S3](https://www.seeedstudio.com/Seeed-XIAO-ESP32S3-p-5631.html) and [EEMB LP502030 3.7v 250mAH battery](https://www.amazon.com/EEMB-Battery-Rechargeable-Lithium-Connector/dp/B08VRZTHDL).
 - **Case Model**: The file is `Glass shell model.stl` in the `firmware` directory.
-- **Firmware**: The `firmware` directory contains the Arduino firmware used. Open the `.ino` file in the Arduino IDE, Click on the "File" bar at the top of the compiler to open "Preferences". Then, in the address of the other development board manager, enter the following link:
+- **Firmware**: The `firmware` directory contains the Arduino firmware used. Open the `.ino` file in the [Arduino IDE](https://www.arduino.cc/en/software), Click on the "File" bar at the top of the compiler to open "Preferences". Then, in the address of the other development board manager, enter the following link:
 - `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
 - Install the esp32 to your Arduino IDE with edition `2.0.17`, then go to the library manager on the left menu, search for and install libraries like `ArduinoBLE` and `Adafruit Pycamera Library`. 
 - Then select your motherboard and port: At the top of the Arduino IDE, select the development board and port. In the pop-up window, search for `xiao` and select `XIAO_ESP32S3`
@@ -150,3 +150,4 @@ We welcome contributions of all forms! If you have any ideas, suggestions, or fi
 ## 📄 License
 
 This project is open-sourced under the [MIT License](LICENSE). 
+

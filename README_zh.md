@@ -72,8 +72,8 @@ AI smart glasses assistant   是一个开源的智能眼镜项目，基于[OpenG
 ### 2. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/ai-dialogue-smart-glasses.git
-cd ai-dialogue-smart-glasses
+git clone https://github.com/sss098/AI-smart-glasses-assistant.git
+cd AI-smart-glasses-assistant
 ```
 
 ### 3. 安装依赖
