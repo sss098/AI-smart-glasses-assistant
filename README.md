@@ -99,7 +99,7 @@ This is the most important step! The project requires API keys from several serv
   };
   ```
 
-- **`sources/app/DeviceView.tsx` and `sources/components/VoiceChat.tsx`**:
+- **`sources/app/DeviceView.tsx` and `sources/components/VoiceChat.tsx`and`sources/modules/xfyun-tts.ts`**:
   - In these two files, find the `xfyunConfig` object and fill in your `appId`, `apiKey`, and `apiSecret` obtained from the [iFlytek Open Platform](https://www.xfyun.cn/).
 
 - **`sources/modules/zhipuai.ts`**:
