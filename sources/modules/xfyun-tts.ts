@@ -3,9 +3,9 @@ import { keys } from "../keys";
 import CryptoJS from 'crypto-js';
 
 // 科大讯飞TTS配置
-const APP_ID = "2ac1d767";
-const API_KEY = "43825bd74df2aa5c96c7bba1922f5272";
-const API_SECRET = "YjZkMGJlNjYxNDE4MTg5MDU2NTA5OTUy";
+const APP_ID = "YOUR_XFYUN_APP_ID";
+const API_KEY = "YOUR_XFYUN_API_KEY";
+const API_SECRET = "YOUR_XFYUN_API_SECRET";
 const HOST = "tts-api.xfyun.cn";
 const TTS_URL = "wss://tts-api.xfyun.cn/v2/tts";
 

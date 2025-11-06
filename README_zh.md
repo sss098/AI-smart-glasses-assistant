@@ -101,8 +101,8 @@ npm install
   };
   ```
 
-- **`sources/app/DeviceView.tsx` 和 `sources/components/VoiceChat.tsx`**:
-  - 在这两个文件中找到 `xfyunConfig` 对象，并填入您在 [讯飞开放平台](https://www.xfyun.cn/) 申请的 `appId`, `apiKey`, 和 `apiSecret`。
+- **`sources/app/DeviceView.tsx` 和 `sources/components/VoiceChat.tsx`和`sources/modules/xfyun-tts.ts`**:
+  - 在这三个文件中找到 `xfyunConfig` 对象，并填入您在 [讯飞开放平台](https://www.xfyun.cn/) 申请的 `appId`, `apiKey`, 和 `apiSecret`。
 
 - **`sources/modules/zhipuai.ts`**:
   - 在该文件中找到 `API_KEY` 变量并填入您在 [智谱开放平台](https://open.bigmodel.cn/) 申请的密钥。
